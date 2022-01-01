@@ -1,0 +1,21 @@
+.filter-size {
+    &__item {
+      font-size: 14px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      margin-right: 5px;
+      transition: transform 0.3s;
+      margin-bottom: 7px;
+      width: 37px;
+      height: 29px;
+      background-color: #ffffff;
+  
+      &:hover {
+        background-color: #2d3436;
+        color: #ffffff;
+        transform: scale(0.9);
+      }
+    }
+}

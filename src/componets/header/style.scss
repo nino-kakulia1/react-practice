@@ -1,0 +1,31 @@
+.header{
+    padding: 20px 120px;
+    height: 110px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    &__logo{
+        position: absolute;
+        left: 50%;
+        width: 100px;
+        transform: translateX(-50%);
+    }
+
+
+    &__icon{
+        margin-right: 25px;
+        margin-right: 25px;
+        cursor: pointer;
+        transition: all opacity 0.3s ease;
+    
+     
+    
+        &:hover {
+          opacity: 0.5;
+        }
+    }
+}

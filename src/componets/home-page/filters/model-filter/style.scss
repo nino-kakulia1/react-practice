@@ -1,0 +1,25 @@
+.filter-model {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  
+    &__item {
+      font-size: 14px;
+      width: 77px;
+      height: 27px;
+      display: flex;
+      margin-bottom: 12px;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s;
+   
+      background-color: #ffffff;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #2d3436;
+        color: #ffffff;
+        transform: scale(0.9);
+      }
+    }
+  }
